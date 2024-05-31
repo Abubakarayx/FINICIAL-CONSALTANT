@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}html , body {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:1186px) {
+    .services-section-card-grid{
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    }
+    .meat-our-team{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    } .meat-our-team-cards-grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 1rem;
+     }
+
+
+}
+
+@media screen and (max-width:640px) {
+    .services-section-card-grid{
+        grid-template-columns: repeat(1,1fr);
+       
+        }.meat-our-team-cards-grid{
+            grid-template-columns: repeat(1,1fr);
+         }
+         .client-section-clinet-reviews{
+            flex-direction: column;
+            padding-left:0 ;
+            padding-right:0 ;
+            text-align: center;
+         }
+}

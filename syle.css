@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}html , body {
+    height: 100%;
+    width: 100%;
+}
+
+/* predefine classes */
+
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+p {
+    color: black;
+    opacity: .5;
+    font-weight: 500;
+   
+}
+
+.contanier{
+    max-width: 80rem;
+    margin-inline: auto;
+    overflow-x: hidden;
+    padding: 0 1.5rem;
+}
+
+.green-btn{ 
+    align-self: center;
+    padding: 1.5rem 2rem ;
+    color: black;
+    background-color: #50E4C1;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}.green-btn:hover{
+    background-color:#36cba8 ;
+    transition: ease-out .5s;
+    -webkit-transition: ease-out .5s;
+    -moz-transition: ease-out .5s;
+    -ms-transition: ease-out .5s;
+    -o-transition: ease-out .5s;
+}
+
+/* predefine classes */
+
+.heros-1-wraper{
+    background-color: rebeccapurple;
+    background-image: url("images/heros-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heros-1{
+    padding: 5rem 0rem;
+    display: flex;
+    row-gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}.heros-1-logo img{
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}.heros-1 h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 500;
+}.heros-1 p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.heros-1-tag-section-wraper{
+    background-color: black;
+}
+.heros-1-tag-section {
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.services-wraper{
+    background-color: #E8E7E7;
+}
+.services-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 2rem; 
+    padding: 7rem 0rem;
+
+}.services-section h1 {
+    color: black;
+    font-size: 4rem;
+    font-weight: 500;
+}.services-section p {
+    color: black;
+    opacity: .5;
+    font-size: 2rem;
+    font-weight: 500;
+   
+}
+.services-section-card-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 1.5rem;
+    padding: 0 3rem;
+}.services-section-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 1rem;
+    background-color: white;
+    padding: 2rem 1.5rem;
+}.services-section-card i {
+    color: #36cba8;
+    font-size: 2.2rem;
+}
+.services-section-card h1{
+    font-size: 2.3rem;
+}.services-section-card p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    opacity: 100%;
+    margin-top: 2rem;
+}.services-section-card a {
+    color: rgb(158, 158, 226);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.meat-our-team {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    padding: 5rem 1rem;
+}
+.meat-our-team h4 {
+    color: black;
+    opacity: .5;
+    font-weight: 500;
+}
+.meat-our-team-cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 2rem;
+
+}.meat-our-team-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 1rem; 
+    background-color: #E8E7E7;
+    padding: 2rem 3rem;
+}.meat-our-team-cards h2 {
+    font-weight: 200;
+}.meat-our-team-cards h3 {
+    font-weight: 200;
+    opacity: .5;
+}
+.meat-our-team-cards img {
+    max-width: 17rem;
+}.meat-our-team-cards p{
+    font-size: 1.1rem;
+}
+
+
+.client-section-wraper {
+    background-color: black;
+}
+.client-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.client-section h1 {
+    color: white;
+    
+}
+
+.client-section h1::after {
+    content: "";
+    display: block;
+    width: 4rem;
+    height: .3rem;
+    background-color: #36cba8;
+    /* margin-inline: auto; */
+    margin-top: 1rem;
+}.client-section-clinet-reviews {
+    display: flex;
+    text-align: start;
+    align-items: center;
+    column-gap: 3rem;
+    /* row-gap: 11rem; */
+    padding: 3rem 7rem;
+}.client-section-clinet-reviews h2{
+    color: white;
+}
+.client-section-clinet-reviews img {
+    max-width: 7rem;
+    max-height: 7rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%; 
+} 
+
+
+
+footer{
+    background-color: black;
+}.footer{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 3rem 7rem;
+
+}.footer-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}.footer-text h4 {
+    color: white;
+    font-size: 1.3rem;
+}
+.footer img {
+    max-width: 9rem;
+}
